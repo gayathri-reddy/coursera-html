@@ -1,0 +1,60 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+}
+#header-nav{
+  border-radius: 0;
+  border: 0;
+  background-color: #808080;
+}
+.navbar-header {
+
+}
+.navbar-brand{
+  padding-top: 15px;
+}
+.navbar-brand h1{
+  color: #fff;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top:0;
+  margin-bottom:0;
+  line-height: .75;
+}
+#nav-list {
+  /*background-color: white;*/
+}
+#nav-list li{
+  text-align: center;
+  /*background-color: white;*/
+}
+
+#nav-list li a{
+  color: white;
+  /*background-color: white;*/
+}
+
+#main-content h2{
+  text-align: center;
+  font-weight: bold;
+  font-family: 'Oxygen', sans-serif;
+  margin-bottom: 50px;
+}
+.row{
+  background-color: #808080;
+  margin: 10px 20px 10px;
+}
+.row h3{
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+.row .description{
+  padding-left: 10px;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border:1px solid black;
